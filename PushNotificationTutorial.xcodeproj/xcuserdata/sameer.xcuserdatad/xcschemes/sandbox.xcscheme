@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42E82BDE18C5DEC60053111A"
-            BuildableName = "sandbox.app"
-            BlueprintName = "sandbox"
-            ReferencedContainer = "container:sandbox.xcodeproj">
+            BuildableName = "PushNotificationTutorial.app"
+            BlueprintName = "PushNotificationTutorial"
+            ReferencedContainer = "container:PushNotificationTutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42E82BDE18C5DEC60053111A"
-            BuildableName = "sandbox.app"
-            BlueprintName = "sandbox"
-            ReferencedContainer = "container:sandbox.xcodeproj">
+            BuildableName = "PushNotificationTutorial.app"
+            BlueprintName = "PushNotificationTutorial"
+            ReferencedContainer = "container:PushNotificationTutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
