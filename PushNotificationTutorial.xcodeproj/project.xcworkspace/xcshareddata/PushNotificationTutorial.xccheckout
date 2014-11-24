@@ -10,43 +10,43 @@
 	<string>PushNotificationTutorial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>71D1B43C-BA14-44E7-B60A-7DA05CC6558D</key>
+		<key>32904EFED5F13BBA18F417366814B95080C627F3</key>
 		<string>https://github.com/raweng/built.io-ios-tutorial-push.git</string>
-		<key>B4195C5A-4007-42CB-9C4B-3F70E4C01FC1</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PushNotificationTutorial.xcodeproj/project.xcworkspace</string>
+	<string>PushNotificationTutorial.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>71D1B43C-BA14-44E7-B60A-7DA05CC6558D</key>
+		<key>32904EFED5F13BBA18F417366814B95080C627F3</key>
 		<string>../..</string>
-		<key>B4195C5A-4007-42CB-9C4B-3F70E4C01FC1</key>
-		<string>../../built.io-ios-framework</string>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
+		<string>../..built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-push.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>71D1B43C-BA14-44E7-B60A-7DA05CC6558D</string>
+	<string>32904EFED5F13BBA18F417366814B95080C627F3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B4195C5A-4007-42CB-9C4B-3F70E4C01FC1</string>
+			<string>32904EFED5F13BBA18F417366814B95080C627F3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built.io-ios-framework</string>
+			<string>built.io-ios-tutorial-push</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>71D1B43C-BA14-44E7-B60A-7DA05CC6558D</string>
+			<string>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built.io-ios-tutorial-push</string>
+			<string>built.io-ios-tutorial-pushbuilt.io-ios-framework</string>
 		</dict>
 	</array>
 </dict>
