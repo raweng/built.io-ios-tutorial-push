@@ -27,6 +27,12 @@
 		42E82BFB18C5DEC60053111A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E82BFA18C5DEC60053111A /* Images.xcassets */; };
 		BA286A5A18ED650100E45578 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA286A5818ED650100E45578 /* BuiltIO.bundle */; };
 		BA286A5B18ED650100E45578 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA286A5918ED650100E45578 /* BuiltIO.framework */; };
+		FA231AC01A9F488F00434E36 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231ABF1A9F488F00434E36 /* libicucore.dylib */; };
+		FA231AC21A9F489500434E36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AC11A9F489500434E36 /* libsqlite3.dylib */; };
+		FA231AC41A9F489C00434E36 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AC31A9F489C00434E36 /* libc++.dylib */; };
+		FA231AC61A9F48A200434E36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AC51A9F48A200434E36 /* MobileCoreServices.framework */; };
+		FA231AC81A9F48AC00434E36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AC71A9F48AC00434E36 /* CoreData.framework */; };
+		FA231ACA1A9F48B300434E36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AC91A9F48B300434E36 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,12 @@
 		42E82C0118C5DEC60053111A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BA286A5818ED650100E45578 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		BA286A5918ED650100E45578 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
+		FA231ABF1A9F488F00434E36 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FA231AC11A9F489500434E36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FA231AC31A9F489C00434E36 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FA231AC51A9F48A200434E36 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA231AC71A9F48AC00434E36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA231AC91A9F48B300434E36 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA231ACA1A9F48B300434E36 /* CoreFoundation.framework in Frameworks */,
+				FA231AC81A9F48AC00434E36 /* CoreData.framework in Frameworks */,
+				FA231AC61A9F48A200434E36 /* MobileCoreServices.framework in Frameworks */,
+				FA231AC41A9F489C00434E36 /* libc++.dylib in Frameworks */,
+				FA231AC21A9F489500434E36 /* libsqlite3.dylib in Frameworks */,
+				FA231AC01A9F488F00434E36 /* libicucore.dylib in Frameworks */,
 				42AC8CF318C5F64F008C1764 /* Accounts.framework in Frameworks */,
 				42AC8CF118C5F648008C1764 /* Social.framework in Frameworks */,
 				42AC8CEF18C5F640008C1764 /* Twitter.framework in Frameworks */,
@@ -121,7 +139,7 @@
 		42E82BD618C5DEC60053111A = {
 			isa = PBXGroup;
 			children = (
-				42E82BE818C5DEC60053111A /* sandbox */,
+				42E82BE818C5DEC60053111A /* PushNotificationTutorial */,
 				235B6B7E1A232E1B00782E7D /* PushNotificationTutorialTests */,
 				42E82BE118C5DEC60053111A /* Frameworks */,
 				42E82BE018C5DEC60053111A /* Products */,
@@ -140,6 +158,12 @@
 		42E82BE118C5DEC60053111A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA231AC91A9F48B300434E36 /* CoreFoundation.framework */,
+				FA231AC71A9F48AC00434E36 /* CoreData.framework */,
+				FA231AC51A9F48A200434E36 /* MobileCoreServices.framework */,
+				FA231AC31A9F489C00434E36 /* libc++.dylib */,
+				FA231AC11A9F489500434E36 /* libsqlite3.dylib */,
+				FA231ABF1A9F488F00434E36 /* libicucore.dylib */,
 				BA286A5818ED650100E45578 /* BuiltIO.bundle */,
 				BA286A5918ED650100E45578 /* BuiltIO.framework */,
 				42AC8CF218C5F64F008C1764 /* Accounts.framework */,
@@ -159,7 +183,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		42E82BE818C5DEC60053111A /* sandbox */ = {
+		42E82BE818C5DEC60053111A /* PushNotificationTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				42E82BF118C5DEC60053111A /* AppDelegate.h */,
@@ -169,7 +193,7 @@
 				42E82BFA18C5DEC60053111A /* Images.xcassets */,
 				42E82BE918C5DEC60053111A /* Supporting Files */,
 			);
-			path = sandbox;
+			path = PushNotificationTutorial;
 			sourceTree = "<group>";
 		};
 		42E82BE918C5DEC60053111A /* Supporting Files */ = {
@@ -377,8 +401,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.raweng.sandbox";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.raweng.sandbox";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -396,7 +420,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "C4183404-A65F-41C7-9E52-DAFFFB89F47B";
+				PROVISIONING_PROFILE = "620DCA06-B581-44EF-B2CC-D324AD52DFAA";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -418,8 +442,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.raweng.sandbox";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.raweng.sandbox";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -430,7 +454,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "C4183404-A65F-41C7-9E52-DAFFFB89F47B";
+				PROVISIONING_PROFILE = "620DCA06-B581-44EF-B2CC-D324AD52DFAA";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -441,18 +465,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sandbox/PushNotificationTutorial-Prefix.pch";
-				INFOPLIST_FILE = "sandbox/PushNotificationTutorial-Info.plist";
+				GCC_PREFIX_HEADER = "PushNotificationTutorial/PushNotificationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = PushNotificationTutorial;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "620DCA06-B581-44EF-B2CC-D324AD52DFAA";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -462,18 +486,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhuvan Daruwala (43LY3UHLJE)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sandbox/PushNotificationTutorial-Prefix.pch";
-				INFOPLIST_FILE = "sandbox/PushNotificationTutorial-Info.plist";
+				GCC_PREFIX_HEADER = "PushNotificationTutorial/PushNotificationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = PushNotificationTutorial;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "620DCA06-B581-44EF-B2CC-D324AD52DFAA";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -488,6 +512,7 @@
 				235B6B871A232E1B00782E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E82BDA18C5DEC60053111A /* Build configuration list for PBXProject "PushNotificationTutorial" */ = {
 			isa = XCConfigurationList;

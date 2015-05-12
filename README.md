@@ -1,4 +1,4 @@
-built.io-ios-tutorial-push
-==========================
+Push Tutorial
+==============
 
-Push Notifications using built.io
+Push Notifications using Built.io Backend

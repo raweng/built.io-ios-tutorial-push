@@ -2,7 +2,7 @@
 //  PushNotificationTutorialTests.m
 //  PushNotificationTutorialTests
 //
-//  Created by Reefaq on 24/11/14.
+//  Created by Sameer on 24/11/14.
 //  Copyright (c) 2014 Sameer. All rights reserved.
 //
 
